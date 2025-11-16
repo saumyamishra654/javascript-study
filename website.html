@@ -1,27 +1,32 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>html css review</title>
-        <style> 
-    .red-button{ /* css selector */
+  <head>
+    <title>html css review</title>
+    <style> 
+      .red-button{ /* css selector */
         background-color: red; /* css property */
         color: white; /* css property */
         border: none; /* css property */
-    }
-</style>
+      }
+    </style>
 
-    </head>
-    <body>
-        <button title="tooltip" class = "red-button">
-    hello
-</button>
-<p> 
-    paragraph of <button>
-        hello
-    </button> 
-    text
-</p>
-    </body>
+  </head>
+  <body>
+    <button title="tooltip" class = "red-button" onclick="alert('ma ka bhosada')">
+      hello
+    </button>
+    <p> 
+      paragraph of 
+        <button onclick="alert('aag')">
+            hello
+        </button> 
+      text
+    </p>
+    <script> 
+      console.log(2 + 2);
+      // alert("hello world");
+    </script>
+  </body>
 
 
 </html>
